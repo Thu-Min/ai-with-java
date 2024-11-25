@@ -3,9 +3,8 @@ spring:
     web-application-type: servlet
 
 server:
-  url: http://localhost:8081
-  port: 8081
   address: 0.0.0.0
+  port: 8081
 
 ai:
   ollama:
