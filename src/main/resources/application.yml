@@ -1,0 +1,15 @@
+spring:
+  main:
+    web-application-type: servlet
+
+server:
+  url: http://localhost:8081
+  port: 8081
+
+ai:
+  ollama:
+    baseURL: http://localhost:11434
+    chat:
+      options:
+        model: gemma2
+        temperature: 0.7
